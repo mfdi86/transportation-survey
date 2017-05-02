@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Transportation Survey</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h2>Transportation Survey</h2>
+      </div>
+      <form id="transportation_survey">
+        <div class="form-group">
+          <p>In the past year, I've used the following modes of transportation to travel to and from school or work:</p>
+          <input type="checkbox" name="work-transport" value="bike">Riding a bike.<br>
+          <input type="checkbox" name="work-transport" value="car">Driving a car.<br>
+          <input type="checkbox" name="work-transport" value="walk">Walking.<br>
+          <input type="checkbox" name="work-transport" value="bus">Riding the bus.<br>
+          <input type="checkbox" name="work-transport" value="taxi">Taking a taxi<br>
+        </div>
+        <div class="form-group">
+          <p>In the past year, I've used the following modes of transportation to travel to and from other activities and events:</p>
+          <input type="checkbox" name="fun-transport" value="bike">Riding a bike.<br>
+          <input type="checkbox" name="fun-transport" value="car">Driving a car.<br>
+          <input type="checkbox" name="fun-transport" value="walk">Walking.<br>
+          <input type="checkbox" name="fun-transport" value="bus">Riding the bus.<br>
+          <input type="checkbox" name="fun-transport" value="taxi">Taking a taxi<br>
+        </div>
+      <button type="submit">Submit Survey</button>
+      </form>
+      <span id = "work-responses">
+        <p></b> You use the following methods to get to work or school:</b></p>
+      </span>
+      <br>
+      <span id = "fun-responses">
+        <p><b>You use the following methods to get to other activities and events:</b></p>
+      </span>
+    </div>
+  </body>
+</html>
